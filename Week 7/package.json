@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "chai": "^5.3.1",
+    "express": "^5.1.0",
+    "mocha": "^11.7.1",
+    "nodemon": "^3.1.10",
+    "request": "^2.88.2",
+    "socket.io": "^4.8.1"
+  },
+  "name": "week-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
